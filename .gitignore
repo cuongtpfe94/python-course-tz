@@ -1,0 +1,27 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+.virtualenv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Database
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.local

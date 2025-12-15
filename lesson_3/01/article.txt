@@ -1,0 +1,28 @@
+This project is a sample implementation of building a REST API in Python using FastAPI, applying the MVC pattern combined with the Service Layer architecture. The goal of the project is to provide a clear, easy-to-understand, and easily extensible source code structure for modern backend systems.
+The architecture is designed with a strong separation of concerns between layers, helping to reduce coupling and improve maintainability throughout the software development lifecycle. Controllers are responsible only for handling requests and responses, while all business logic is placed in the Service Layer. Data access and manipulation are handled through the Repository layer, allowing better control over interactions with the database.
+The project uses FastAPI as the main framework due to its high performance, clean syntax, and powerful data validation capabilities with Pydantic. SQLAlchemy is used as the ORM to interact with the database, making the code more readable and reducing the risk of errors caused by manual queries.
+Through this example, readers can:
+
+
+Understand how to organize a FastAPI project in a standardized structure
+
+
+Apply the Service Layer pattern to avoid placing business logic directly in controllers
+
+
+Easily extend new features without affecting the overall architecture
+
+
+This project is suitable for use as a template to bootstrap Python backend projects, for internal training materials, or as an architectural demo for development teams.
+
+If you want, I can also help you:
+
+
+Rewrite this in a more marketing-style tone
+
+
+Shorten it for a GitHub description
+
+
+Adapt it for technical documentation or internal guidelines
+
